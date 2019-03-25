@@ -61,7 +61,11 @@ print("Twój wiek: "+wiek)
 
 nazwisko="Jankowski"
 print(nazwisko[0]) #J
-print(nazwisko[0:3])
-
+print(nazwisko[0:3])#Jan
+print(nazwisko[-2])#k
+print(nazwisko[-2:])#ki
+print(nazwisko[:-2])#Jankows
+print(nazwisko[:-2:2])#Jnos
+print(nazwisko[::2])#Jnos
 
 print()

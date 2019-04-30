@@ -17,3 +17,23 @@ wyswietlArgs(5,3,13,4,3.5)
 imiona =['Anna','Julia','Krzysztof','Jan']
 wyswietlArgs(imiona)
 wyswietlArgs(*imiona)
+
+############czysczenie ekranu
+#import os
+#os.system('cls')
+
+############## **kwargs ############
+
+def pracownik(**kwargs):
+    for key, val in kwargs.items():
+        print(f'klucz: {key}, wartość: {val}')
+
+pracownik1={
+    'imie':'Jan',
+    'nazwisko':'Nowak',
+    'wiek':21,
+    'miasto':'Poznań',
+    'umowaOprace':True
+}
+
+pracownik(**pracownik1)

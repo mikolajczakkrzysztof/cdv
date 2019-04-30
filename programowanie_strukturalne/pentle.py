@@ -19,3 +19,5 @@ print()
 for i in range(1,11):
     print(i,end=' ')
 print()
+
+#Wypisz elementy z listy do momentu wartośći q, quit lub end
